@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './styles';
 import NavBar from "./components/pages/NavBar";
 import Hero from "./components/pages/Hero";
+import About from "./components/pages/About";
 
 function App() {
     return (
@@ -15,6 +16,12 @@ function App() {
             <div className={`bg-primary ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
                     <Hero/>
+                </div>
+            </div>
+
+            <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+                <div className={`${styles.boxWidth}`}>
+                    <About/>
                 </div>
             </div>
         </div>

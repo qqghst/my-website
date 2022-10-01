@@ -6,4 +6,6 @@ import arrow from './hero/arrowDown.svg'
 import giphy from './hero/arrowDown.svg'
 import gif from './hero/gg.svg'
 
-export { logo, close, menu, arrow, giphy, gif };
+import leftImg from './about/3d.svg'
+
+export { logo, close, menu, arrow, giphy, gif, leftImg };
