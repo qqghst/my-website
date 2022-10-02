@@ -7,5 +7,6 @@ import giphy from './hero/arrowDown.svg'
 import gif from './hero/gg.svg'
 
 import leftImg from './about/3d.svg'
+import readMoreBtn from './about/readMoreBtn.svg'
 
-export { logo, close, menu, arrow, giphy, gif, leftImg };
+export { logo, close, menu, arrow, giphy, gif, leftImg, readMoreBtn };

@@ -10,7 +10,7 @@ export const navLinks: INavLinks[] = [
         title: "behance()",
     },
     {
-        id: "contact me()",
-        title: "contact me()",
+        id: "sayHello()",
+        title: "sayHello()",
     },
 ];

@@ -1,9 +1,14 @@
 const styles = {
     boxWidth: "xl:max-w-[1280px] w-full",
 
+    heading1: 'font-inter font-semibold text-[68.8px] tracking-[0.5px] leading-[120%] text-whiteOppacity max-w-4xl',
     heading2: "font-inter font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
     stroke: 'font-inter font-bold text-[68.8px] text-white tracking-[2px] w-full',
-    paragraph: "font-inter font-medium text-dimWhite text-[16px] leading-[30.8px]",
+    paragraph: "font-inter font-medium text-[116px] text-whiteOppacity leading-[30.8px]",
+
+    h1: 'font-inter font-bold ss:text-[68.8px] text-[47.78px] text-whiteOppacity leading-[110%] tracking-[0.5px]',
+    button: 'font-inter font-regular text-[16px] text-whiteOppacity cursor-pointer flex flex-row items-center',
+    navlinks: "font-inter font-regular text-[16px] sm:text-whiteOppacity black",
 
     flexCenter: "flex justify-center items-center",
     flexStart: "flex justify-center items-start",
