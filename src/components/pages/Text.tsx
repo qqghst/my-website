@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../../styles';
 
-const Text = () => {
+const Text: React.FC = () => {
     return (
         <section className='mt-[300px]'>
             <h1 className={`${styles.heading1} mb-[32px]`}>I don't know what to write here?</h1>

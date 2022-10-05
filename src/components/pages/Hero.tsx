@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from "../../styles";
-import { arrow, giphy, gif } from "../../assets";
+import { arrow, giphy, gif } from "../../assets/imports";
 import Button from '../UI/Button';
 
 
-const Hero = () => {
+const Hero: React.FC = () => {
     return (
         <section id='hero' className='min-h-screen w-full h-full'>
             {/* // <section className={`flex md:flex-row flex-col ${styles.paddingY}`}> */}

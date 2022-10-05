@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import {navLinks} from "../../constans";
-import {logo, menu, close} from '../../assets';
+import {logo, menu, close} from '../../assets/imports';
 import styles from '../../styles';
 
-const NavBar = () => {
+const NavBar: React.FC = () => {
 
     const [showMenu, setShowMenu] = useState(false)
 

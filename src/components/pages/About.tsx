@@ -2,10 +2,10 @@ import React from 'react';
 import sphere from '../../assets/about/sphere.png'
 import styles, { layout } from "../../styles";
 import Button from "../UI/Button";
-import {leftImg} from "../../assets";
-import { readMoreBtn } from '../../assets';
+import {leftImg} from "../../assets/imports";
+import { readMoreBtn } from '../../assets/imports';
 
-const About = () => {
+const About: React.FC = () => {
     return (
         <>
         <div className='text-white'>

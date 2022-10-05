@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './styles';
-import NavBar from "./components/Pages/NavBar";
-import Hero from "./components/Pages/Hero";
-import About from "./components/Pages/About";
-import GetInTouch from './components/Pages/GetInTouch';
-import Text from './components/Pages/Text';
+import NavBar from "./components/pages/NavBar";
+import Hero from "./components/pages/Hero";
+import About from "./components/pages/About";
+import GetInTouch from './components/pages/GetInTouch';
+import Text from './components/pages/Text';
 
 function App() {
     return (
