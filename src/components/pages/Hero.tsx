@@ -1,22 +1,25 @@
 import React from 'react';
-import styles from "../../styles";
-import { arrow, giphy, gif } from "../../assets/imports";
+import { arrow } from "../../assets/imports";
 import Button from '../UI/Button';
 
 
 const Hero: React.FC = () => {
     return (
-        <section id='hero' className='min-h-screen w-full h-full'>
-            {/* // <section className={`flex md:flex-row flex-col ${styles.paddingY}`}> */}
-            {/* <div className={`flex-1 flex justify-center items-start flex-col xl:px-0 sm:px-16 px-6`}> */}
-            <div className='flex flex-col xl:px-0 sm:px-16 px-6'>
-                {/* <div className='flex flex-col w-full mt-[80px]'> */}
-                <div className='relative top-[24%] translate-y-[24%]'>
-                    <p className='mb-[16px] text-[16px] text-whiteOppacity24 '>hello, i am doing</p>
-                    <h1 className={`${styles.h1}`}>Frontend development <br className='sm:block hidden' /> and web design that will <br className='sm:block hidden' /> <span className='text-whiteOppacity24'>increase your profit.</span></h1>
+        <section id='hero' className='min-h-screen flex flex-col justify-center'>
+            <div className='container mx-auto'>
+                <div className='flex-1 flex flex-col justify-center'>
+                    <p className='text-whiteOppacity32 tracking-regularText mb-[16px] text-base'>hello, i am doing</p>
+                    <h1 className='text-whiteOppacity font-bold leading-[110%] tracking-bigText text-[40px] sm:text-[68.8px]'>Frontend development <br /> and web design that will <br /> <span className='text-whiteOppacity32'>increase your profit.</span></h1>
                 </div>
-                <div className='w-full my-[200px]'>
-                    <Button>keep going? <img className='px-[16px]' src={arrow} alt="arrow" /></Button>
+                <div className=''>
+                    <Button>
+                        keep going?
+                        <img
+                            className='px-[16px]'
+                            src={arrow}
+                            alt="scroll down"
+                        />
+                    </Button>
                 </div>
             </div>
         </section>

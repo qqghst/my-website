@@ -1,15 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    content: ["./index.html", "./src/**/*.{js,jsx,ts,tsx}"],
+    content: [
+        "./src/**/*.{js,jsx,ts,tsx}",
+    ],
     theme: {
+        letterSpacing: {
+            bigText: '-2.5px', //68.8px
+            mediumText: '-1.55px', //38.81px
+            regularText: '-0.25px', //16px
+        },
         extend: {
+            height: {
+                'half-screen': '50vh'
+            },
             colors: {
                 whiteOppacity: "rgba(255, 255, 255, 0.80)",
-                whiteOppacity24: "rgba(255, 255, 255, 0.24)",
-                primary: "#0F0F0F",
-                secondary: "#00f6ff",
-                dimWhite: "rgba(255, 255, 255, 0.7)",
-                dimBlue: "rgba(9, 151, 124, 0.1)",
+                whiteOppacity32: "rgba(255, 255, 255, 0.32)",
+                background: '#0F0F0F',
+
             },
             fontFamily: {
                 inter: ["Inter", "sans-serif"],

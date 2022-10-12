@@ -33,7 +33,7 @@ const NavBar: React.FC = () => {
                 />
                 <div
                     // className={`${showMenu ? 'flex' : 'hidden'} p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
-                    className={`${showMenu ? 'flex' : 'hidden'} z-[9] w-full h-full bg-white absolute top-0 right-0 mx-0 my-0 overflow-hidden`}
+                    className={`${showMenu ? 'flex' : 'hidden'} z-[9] w-full h-full bg-white absolute top-0 right-0 mx-0 my-0 overflow-hidden sidebar`}
                 >
                     {/* list-none */}
                     <ul className='flex flex-col justify-end items-center flex-1'>

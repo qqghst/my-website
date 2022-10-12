@@ -1,39 +1,27 @@
 import React from 'react';
-import sphere from '../../assets/about/sphere.png'
-import styles, { layout } from "../../styles";
 import Button from "../UI/Button";
-import {leftImg} from "../../assets/imports";
+import { leftImg } from "../../assets/imports";
 import { readMoreBtn } from '../../assets/imports';
 
 const About: React.FC = () => {
     return (
-        <>
-        <div className='text-white'>
-            asasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasaasasasasasasa
-        </div>
-            <section id='about' className={layout.sectionReverse}>
-
-                <div className={layout.sectionInfo}>
-                    <p className='text-whiteOppacity text-[31.25px] leading-[130%] mb-[12px]'>my name is Dmitry. I started my carrier <br className='sm:block hidden'/> as an ux/ui designer.</p>
-                    <p className='text-whiteOppacity text-[31.25px] leading-[130%] mb-[12px]'>then, after some time a tried html, css <br className='sm:block hidden'/> and this was mindblowing.</p>
-                    <p className='text-whiteOppacity text-[31.25px] leading-[130%] mb-[12px]'>after learning html, css and doing some <br className='sm:block hidden'/> freelance i started learning javascript, <br className='sm:block hidden'/> then react, typescript etc...</p>
-                    <p className='text-whiteOppacity text-[31.25px] leading-[130%]'>and... here i am</p>
+        <section className={`min-h-screen flex flex-col justify-center text-3xl md:text-4xl`}>
+            <div className='container mx-auto flex justify-between items-center'>
+                <img src={leftImg} alt="" />
+                <div>
+                    <p className='text-whiteOppacity text-[39.81px] leading-[140%] tracking-[-0.5px] max-w-xl mb-[48px]'>About me section, don't know what to write here now, loremm ipsum fishing.</p>
                     <Button>
-                        click here <img src={readMoreBtn} alt="" />
+                        read more
+                        <img
+                            className='mx-[16px] transition duration-100 ease-in hover:translate-x-3/4'
+                            src={ readMoreBtn }
+                            alt="button-right"
+                        />
                     </Button>
                 </div>
-                <div className={layout.sectionInfo}>
-                    <p className='text-whiteOppacity text-[31.25px] leading-[130%] mb-[12px]'>my name is Dmitry. I started my carrier <br className='sm:block hidden'/> as an ux/ui designer.</p>
-                    <p className='text-whiteOppacity text-[31.25px] leading-[130%] mb-[12px]'>then, after some time a tried html, css <br className='sm:block hidden'/> and this was mindblowing.</p>
-                    <p className='text-whiteOppacity text-[31.25px] leading-[130%] mb-[12px]'>after learning html, css and doing some <br className='sm:block hidden'/> freelance i started learning javascript, <br className='sm:block hidden'/> then react, typescript etc...</p>
-                    <p className='text-whiteOppacity text-[31.25px] leading-[130%]'>and... here i am</p>
-                    <Button>
-                        click here <img src={readMoreBtn} alt="" />
-                    </Button>
-                </div>
-            </section>
-        </>
-    );
+            </div>
+        </section>
+    )
 };
 
 export default About;

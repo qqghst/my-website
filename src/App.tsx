@@ -3,29 +3,34 @@ import styles from './styles';
 import NavBar from "./components/pages/NavBar";
 import Hero from "./components/pages/Hero";
 import About from "./components/pages/About";
-import GetInTouch from './components/pages/GetInTouch';
+import ScrollHorizontal from './components/pages/ScrollHorizontal';
+import Projects from './components/pages/Projects';
 import Text from './components/pages/Text';
 
 function App() {
     return (
-        <div className='bg-primary w-full, overflow-hidden'>
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className='bg-background w-full overflow-hidden'>
+            {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <NavBar/>
+                    <NavBar />
                 </div>
-            </div>
+            </div> */}
 
-            <div className={`bg-primary ${styles.flexStart}`}>
-                <div className={`${styles.boxWidth}`}>
+            {/* <div className={`bg-background flex justify-center items-start`}>
+                <div className={`xl:max-w-[1280px] w-full`}>
                     <Hero/>
                 </div>
-            </div>
+            </div> */}
+            <Hero />
+            <About />
 
-            <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+
+            <div className={`bg-background ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <About/>
-                    <GetInTouch/>
-                    <Text/>
+                    {/* <About /> */}
+                    <ScrollHorizontal />
+                    <Projects />
+                    <Text />
                 </div>
             </div>
         </div>

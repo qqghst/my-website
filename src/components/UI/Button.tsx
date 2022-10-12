@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './../../styles'
 
 interface ButtonProps {
     children: React.ReactNode,
@@ -7,7 +6,7 @@ interface ButtonProps {
 
 const Button: React.FC<ButtonProps> = ({children}: ButtonProps) => {
     return (
-        <button type='button' className={`${styles.button}`}>
+        <button type='button' className={`text-whiteOppacity font-regular text-[16px] flex flex-row items-center`}>
             {children}
         </button>
     );
