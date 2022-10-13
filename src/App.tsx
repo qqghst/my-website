@@ -3,7 +3,7 @@ import styles from './styles';
 import NavBar from "./components/pages/NavBar";
 import Hero from "./components/pages/Hero";
 import About from "./components/pages/About";
-import ScrollHorizontal from './components/pages/ScrollHorizontal';
+import KeepInTouch from './components/pages/KeepInTouch';
 import Projects from './components/pages/Projects';
 import Text from './components/pages/Text';
 
@@ -23,14 +23,16 @@ function App() {
             </div> */}
             <Hero />
             <About />
+            <KeepInTouch />
+            <Text />
 
 
             <div className={`bg-background ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
                     {/* <About /> */}
-                    <ScrollHorizontal />
+                    {/* <ScrollHorizontal /> */}
                     <Projects />
-                    <Text />
+                    {/* <Text /> */}
                 </div>
             </div>
         </div>

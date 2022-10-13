@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useRef, useContext, useCallback } from 'react';
 import { arrow } from "../../assets/imports";
 import Button from '../UI/Button';
 

@@ -5,6 +5,7 @@ import styles, { layout } from "../../styles";
 import Button from "../UI/Button";
 import { leftImg } from "../../assets/imports";
 import { readMoreBtn } from '../../assets/imports';
+className='text-whiteOppacity font-bold text-[68.8px] tracking-[2px]'
 
 const About: React.FC = () => {
     return (
