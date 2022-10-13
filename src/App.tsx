@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './styles';
 import NavBar from "./components/pages/NavBar";
 import Hero from "./components/pages/Hero";
 import About from "./components/pages/About";
@@ -24,17 +23,18 @@ function App() {
             <Hero />
             <About />
             <KeepInTouch />
+            <Projects />
             <Text />
 
-
+            {/* 
             <div className={`bg-background ${styles.paddingX} ${styles.flexCenter}`}>
                 <div className={`${styles.boxWidth}`}>
-                    {/* <About /> */}
-                    {/* <ScrollHorizontal /> */}
+                    <About />
+                    <ScrollHorizontal />
                     <Projects />
-                    {/* <Text /> */}
+                    <Text />
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
