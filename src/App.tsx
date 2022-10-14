@@ -1,5 +1,6 @@
 import React from 'react';
 import NavBar from "./components/pages/NavBar";
+import Navigation from './components/pages/Navigation'
 import Hero from "./components/pages/Hero";
 import About from "./components/pages/About";
 import KeepInTouch from './components/pages/KeepInTouch';
@@ -20,6 +21,8 @@ function App() {
                     <Hero/>
                 </div>
             </div> */}
+            {/* <NavBar /> */}
+            <Navigation />
             <Hero />
             <About />
             <KeepInTouch />
