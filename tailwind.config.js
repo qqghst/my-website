@@ -17,7 +17,6 @@ module.exports = {
                 whiteOppacity: "rgba(255, 255, 255, 0.80)",
                 whiteOppacity32: "rgba(255, 255, 255, 0.32)",
                 background: '#0F0F0F',
-
             },
             fontFamily: {
                 inter: ["Inter", "sans-serif"],

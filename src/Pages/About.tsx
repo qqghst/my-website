@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from "../UI/Button";
-import { leftImg, readMoreBtn, line } from "../../assets/imports";
+import Button from "../Components/UI/Button";
+import { leftImg, readMoreBtn, line } from "../Assets/imports";
 
 const About: React.FC = () => {
     return (

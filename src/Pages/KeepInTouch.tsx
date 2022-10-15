@@ -1,6 +1,6 @@
 import React from 'react';
 import Marquee from 'react-fast-marquee';
-import { line } from "../../assets/imports";
+import { line } from "../Assets/imports";
 
 const ScrollHorizontal: React.FC = () => {
     return (

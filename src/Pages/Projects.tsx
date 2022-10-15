@@ -1,5 +1,5 @@
 import React from 'react'
-import { line } from "../../assets/imports";
+import { line } from "../Assets/imports";
 
 const Projects: React.FC = () => {
     return (

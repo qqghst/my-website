@@ -1,43 +1,30 @@
 import React from 'react';
-import NavBar from "./components/pages/NavBar";
-import Navigation from './components/pages/Navigation'
-import Hero from "./components/pages/Hero";
-import About from "./components/pages/About";
-import KeepInTouch from './components/pages/KeepInTouch';
-import Projects from './components/pages/Projects';
-import Text from './components/pages/Text';
+import NavBar from './Pages/NavBar';
+import Hero from "./Pages/Hero";
+import About from "./Pages/About";
+import KeepInTouch from './Pages/KeepInTouch';
+import Projects from './Pages/Projects';
+import Text from './Pages/Text';
+import { Routes, Route } from 'react-router-dom';
+import RouteAbout from './Pages/RouteAbout';
+import RouteProjects from './Pages/RouteProjects';
+
 
 function App() {
     return (
         <div className='bg-background w-full overflow-hidden'>
-            {/* <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <NavBar />
-                </div>
-            </div> */}
-
-            {/* <div className={`bg-background flex justify-center items-start`}>
-                <div className={`xl:max-w-[1280px] w-full`}>
-                    <Hero/>
-                </div>
-            </div> */}
-            {/* <NavBar /> */}
-            <Navigation />
+            <Routes>
+                <Route path='/about' element={ <RouteAbout /> }/>
+                <Route path='/projects' element={ <RouteProjects /> }/>
+            </Routes>
+            <NavBar />
             <Hero />
             <About />
             <KeepInTouch />
             <Projects />
             <Text />
-
-            {/* 
-            <div className={`bg-background ${styles.paddingX} ${styles.flexCenter}`}>
-                <div className={`${styles.boxWidth}`}>
-                    <About />
-                    <ScrollHorizontal />
-                    <Projects />
-                    <Text />
-                </div>
-            </div> */}
+            <RouteAbout />
+            <RouteProjects />
         </div>
     );
 }

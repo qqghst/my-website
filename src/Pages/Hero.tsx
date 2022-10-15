@@ -1,6 +1,6 @@
 import React from 'react';
-import { arrow } from "../../assets/imports";
-import Button from '../UI/Button';
+import { arrow } from "../Assets/imports";
+import Button from '../Components/UI/Button';
 
 const Hero: React.FC = () => {
     return (
