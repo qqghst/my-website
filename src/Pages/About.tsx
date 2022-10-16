@@ -10,11 +10,11 @@ const About: React.FC = () => {
                 <div className='container mx-auto flex justify-between items-center'>
                     <img src={leftImg} alt="" />
                     <div>
-                        <p className='text-whiteOppacity text-[39.81px] leading-[140%] tracking-[-0.5px] max-w-xl mb-[32px]'>About me section, don't know what to write here now, loremm ipsum fishing.</p>
+                        <p className='text-whiteOppacity text-[33.18px] font-light leading-[140%] tracking-[-0.5px] max-w-xl mb-[32px]'><strong>Work it, make it, do it.</strong> <br/ > Makes us harder, better, faster, stronger, stronger.</p>
                         <Button>
                             read more
                             <img
-                                className='mx-[16px] transition duration-100 ease-in hover:translate-x-3/4'
+                                className='px-[16px] animate-bounce'
                                 src={readMoreBtn}
                                 alt="button-right"
                             />

@@ -9,7 +9,7 @@ interface IMain {}
 
 const Main: React.FC<IMain> = () => {
     return (
-        <div>
+        <div className='scroll-smooth'>
             <Hero />
             <About />
             <KeepInTouch />

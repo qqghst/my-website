@@ -15,7 +15,7 @@ module.exports = {
             },
             colors: {
                 whiteOppacity: "rgba(255, 255, 255, 0.80)",
-                whiteOppacity32: "rgba(255, 255, 255, 0.32)",
+                whiteOppacity32: "rgba(255, 255, 255, 0.24)",
                 background: '#0F0F0F',
             },
             fontFamily: {
