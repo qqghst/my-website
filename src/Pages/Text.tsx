@@ -25,8 +25,8 @@ const Text: React.FC = () => {
     }
 
     return (
-        <section ref={refContainer} className='bg-background container mx-auto text-whiteOppacity'>
-            <div className='min-h-screen max-w-4xl py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-[40px] sm:text-[68.8px] md:text-6xl lg:text-7xl tracking-bigText font-semibold'>
+        <section ref={refContainer} className='bg-background flex flex-col justify-center'>
+            <div className='container mx-auto max-w-4xl py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-[40px] sm:text-[68.8px] md:text-6xl lg:text-7xl tracking-bigText font-semibold text-whiteOppacity'>
                 <div className='leading-[120%] mb-[32px]'>
                     <div className={Styles.text} style={{opacity: opacityForBlock(progress, 0)}}>I don&apos;t know what to write here?</div>
                     <span className={`${Styles.text} inline-block after:content-['_']`} style={{opacity: opacityForBlock(progress, 1)}}>So... I just gonna put this text right here because i really like it, but in the future there will be something worthwhile.</span>

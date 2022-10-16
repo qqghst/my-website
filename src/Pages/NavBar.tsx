@@ -5,13 +5,13 @@ import { logo, menu, close, } from '../Assets/imports';
 
 interface IRealNav { }
 
-const RealNav: React.FC<IRealNav> = () => {
+const NavBar: React.FC<IRealNav> = () => {
 
     const [showMenu, setShowMenu] = useState(false)
 
     return (
         <>
-            <nav className='flex flex-col justify-between w-full fixed mt-[32px]'>
+            <nav className='bg-background flex flex-col justify-between w-full fixed pt-[32px]'>
                 <div className='container mx-auto flex justify-between'>
                     <div className='hover:animate-pulse'>
                         <a href="/">
@@ -21,6 +21,9 @@ const RealNav: React.FC<IRealNav> = () => {
 
                     <div className='white flex-row gap-[16px] md:flex hidden '>
                         <ul className={`flex gap-[32px]`}>
+                            <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
+                                <Link to='/hero'>main( )</Link>
+                            </li>
                             <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
                                 <Link to='/about'>about( )</Link>
                             </li>
@@ -95,4 +98,4 @@ const RealNav: React.FC<IRealNav> = () => {
     )
 }
 
-export default RealNav
+export default NavBar;

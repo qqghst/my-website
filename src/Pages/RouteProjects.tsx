@@ -4,9 +4,9 @@ interface IRouteProjects { }
 
 const RouteProjects: React.FC<IRouteProjects> = () => {
     return (
-        <section className='min-h-screen'>
+        <section className='bg-background min-h-screen flex flex-col justify-center'>
             <div className='container mx-auto'>
-                <h1>Empty Projects Page</h1>
+                <h1 className='text-whiteOppacity text-7xl font-bold '>Empty Projects Page.tsx</h1>
             </div>
         </section>
     )
