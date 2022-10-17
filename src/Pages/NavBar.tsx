@@ -21,11 +21,11 @@ const NavBar: React.FC<IRealNav> = () => {
 
                     <div className='white flex-row gap-[16px] md:flex hidden '>
                         <ul className={`flex gap-[32px]`}>
-                            <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
+                            {/* <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
                                 <Link to='/hero'>main( )</Link>
-                            </li>
+                            </li> */}
                             <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
-                                <Link to='/about'>about( )</Link>
+                                <Link to='/about'>about<span className=''>( )</span></Link>
                             </li>
                             <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
                                 <Link to='/projects'>projects( )</Link>

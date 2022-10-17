@@ -13,10 +13,10 @@ const About: React.FC = () => {
                     <div>
                         <p className='text-whiteOppacity text-[33.18px] font-light leading-[140%] tracking-[-0.5px] max-w-xl mb-[32px]'><strong>Work it, make it, do it.</strong> <br /> Makes us harder, better, faster, stronger, stronger.</p>
                         <Button type='button'>
-                            <Link className='flex flex-row items-center' to='/about'>
+                            <Link className='flex flex-row items-center bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]' to='/about'>
                                 read more
                                 <img
-                                    className='px-[16px] animate-bounce'
+                                    className='px-[16px] animate-bounce '
                                     src={arrow}
                                     alt="scroll down"
                                 />
