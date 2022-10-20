@@ -6,6 +6,7 @@ import RouteAbout from './Pages/RouteAbout';
 import RouteProjects from './Pages/RouteProjects';
 import Main from './Pages/Main';
 import Loader from './Components/Loader/loader';
+// import Logo from './Components/Logo/logo';
 
 // const override: CSSProperties = {
 //     display: "block",

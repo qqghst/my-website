@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { logo, menu, close, } from '../Assets/imports';
+import Logo from '../Components/Logo/logo';
 
 
 interface IRealNav { }
@@ -15,7 +16,7 @@ const NavBar: React.FC<IRealNav> = () => {
                 <div className='container mx-auto flex justify-between'>
                     <div className='hover:animate-pulse'>
                         <a href="/">
-                            <img src={logo} alt="logo" />
+                            <Logo />
                         </a>
                     </div>
 
