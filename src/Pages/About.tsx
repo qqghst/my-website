@@ -7,7 +7,7 @@ const About: React.FC = () => {
     return (
         <>
             <img src={line} alt="" />
-            <section className={`bg-background min-h-screen flex flex-col justify-center text-3xl md:text-4xl`}>
+            <section className={`min-h-screen flex flex-col justify-center text-3xl md:text-4xl`}>
                 <div className='container mx-auto flex justify-between items-center '>
                     <img src={leftImg} alt="" />
                     <div>

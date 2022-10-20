@@ -1,11 +1,4 @@
-/* .titleHero {
-    color: red;
-    font-size: 96px;
-    font-family: 'Fira Mono', monospace;
-    letter-spacing: -7px;
-} */
-
-.titleHero  {
+/* .titleHero  {
     animation: glitch 1s linear infinite;
 }
 
@@ -77,4 +70,4 @@
     62% {
         transform: translate(-22px, 5px) skew(21deg);
     }
-}
+} */
