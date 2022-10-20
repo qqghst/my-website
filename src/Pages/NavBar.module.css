@@ -1,0 +1,48 @@
+a {
+    color: white;
+}
+
+
+
+
+
+/* отвечает за то где находятся скобки*/
+a.movingBrackets::before {
+    /*   content: "[ "; */
+    margin: -0.1em 0px 0px 5.4em;
+}
+
+a.movingBrackets::after {
+    /*   content: " ]"; */
+    margin: -0.1em 0px 0px 0.8em;
+}
+
+/* отвечает за плавную анимацию, а позишн абсолют чтобы скобки после слова были*/
+a.movingBrackets::before,
+a.movingBrackets::after {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.6s ease;
+    position: absolute;
+}
+
+/* отвечает как далеко будут двигаться скобки*/
+a.movingBrackets:hover::before {
+    margin: -0.1em 0px 0px 3.8em;
+}
+
+a.movingBrackets:hover::after {
+    margin: -0.1em 0px 0px 1em;
+}
+
+
+/* Custom Brackets */
+
+a.movingBrackets::before {
+    content: "(";
+}
+
+a.movingBrackets::after {
+    content: ")";
+}

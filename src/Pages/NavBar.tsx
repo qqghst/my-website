@@ -1,13 +1,10 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { logo, menu, close, } from '../Assets/imports';
+import { menu, close, } from '../Assets/imports';
 import Logo from '../Components/Logo/logo';
+import ss from './NavBar.module.css'
 
-
-interface IRealNav { }
-
-const NavBar: React.FC<IRealNav> = () => {
-
+const NavBar: React.FC = () => {
     const [showMenu, setShowMenu] = useState(false)
 
     return (
@@ -22,17 +19,20 @@ const NavBar: React.FC<IRealNav> = () => {
 
                     <div className='white flex-row gap-[16px] md:flex hidden '>
                         <ul className={`flex gap-[32px]`}>
-                            {/* <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
-                                <Link to='/hero'>main( )</Link>
-                            </li> */}
                             <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
-                                <Link to='/about'>about<span className=''>( )</span></Link>
+                                <Link to='/about'>about( )</Link>
                             </li>
                             <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
                                 <Link to='/projects'>projects( )</Link>
                             </li>
                             <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
+                                <Link className={ss.movingBrackets} to='/lalala'>projects</Link>
+                            </li>
+                            <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
                                 <Link to='/lalala'>sayHello( )</Link>
+                            </li>
+                            <li className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>
+                                <Link className={ss.movingBrackets} to='/lalala'>sayHello</Link>
                             </li>
                         </ul>
                         <ul className='flex gap-[16px]'>
