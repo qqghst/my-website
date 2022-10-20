@@ -1,6 +1,7 @@
 // import React, { useState, useEffect, CSSProperties } from 'react';
 // import ClipLoader from "react-spinners/ClipLoader";
-import NavBar from './Pages/NavBar';
+// import NavBar from './Pages/NavBarrr';
+import NavBar from './Components/NavBar/NavBarrr';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import RouteAbout from './Pages/RouteAbout';
 import RouteProjects from './Pages/RouteProjects';

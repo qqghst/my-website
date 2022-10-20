@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
                 <div className='container mx-auto'>
                     <div className='absolute bottom-[70px] flex'>
                         <Button onClick={handleClick} type='button'>
-                            <span className='bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>keep going?</span>
+                            <span className='font-jetBrains bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#224078] hover:to-[#A42C7B]'>keep going?</span>
                             <img
                                 className='px-[16px] animate-bounce'
                                 src={arrow}

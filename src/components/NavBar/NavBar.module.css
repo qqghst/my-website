@@ -1,0 +1,135 @@
+.movingBracketsAbout,
+.movingBracketsProjects,
+.movingBracketsSayHello {
+    color: rgba(255, 255, 255, 0.72);
+}
+
+/* .movingBracketsAbout:hover,
+.movingBracketsProjects:hover,
+.movingBracketsSayHello:hover {
+    color: rgb(15, 160, 84);
+    transition: transform 5s cubic-bezier(0.83, 0, 0.17, 1);
+} */
+
+
+/* отвечает за то где находятся скобки*/
+.movingBracketsAbout::before {
+    /*   content: "[ "; */
+    margin: 0em 0px 0px 3.2em;
+}
+
+.movingBracketsAbout::after {
+    /*   content: " ]"; */
+    margin: 0em 0px 0px 0.8em;
+}
+
+/* отвечает за плавную анимацию, а позишн абсолют чтобы скобки после слова были*/
+.movingBracketsAbout::before,
+.movingBracketsAbout::after {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.4s ease;
+    position: absolute;
+}
+
+/* отвечает как далеко будут двигаться скобки*/
+.movingBracketsAbout:hover::before {
+    margin: 0em 0px 0px 3em;
+}
+
+.movingBracketsAbout:hover::after {
+    margin: 0em 0px 0px 1em;
+}
+
+/* Custom Brackets */
+.movingBracketsAbout::before {
+    content: "(";
+}
+
+.movingBracketsAbout::after {
+    content: ")";
+}
+
+/*================================*/
+/* отвечает за то где находятся скобки*/
+.movingBracketsProjects::before {
+    /*   content: "[ "; */
+    margin: 0em 0px 0px 5em;
+}
+
+.movingBracketsProjects::after {
+    /*   content: " ]"; */
+    margin: 0em 0px 0px 0.8em;
+}
+
+/* отвечает за плавную анимацию, а позишн абсолют чтобы скобки после слова были*/
+.movingBracketsProjects::before,
+.movingBracketsProjects::after {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.4s ease;
+    position: absolute;
+}
+
+/* отвечает как далеко будут двигаться скобки*/
+.movingBracketsProjects:hover::before {
+    margin: 0em 0px 0px 4.8em;
+}
+
+.movingBracketsProjects:hover::after {
+    margin: 0em 0px 0px 1em;
+}
+
+/* Custom Brackets */
+.movingBracketsProjects::before {
+    content: "(";
+}
+
+.movingBracketsProjects::after {
+    content: ")";
+}
+
+/*================================*/
+/* отвечает за то где находятся скобки*/
+.movingBracketsSayHello::before {
+    /*   content: "[ "; */
+    margin: 0em 0px 0px 5.1em;
+}
+
+.movingBracketsSayHello::after {
+    /*   content: " ]"; */
+    margin: 0em 0px 0px 0.9em;
+}
+
+/* отвечает за плавную анимацию, а позишн абсолют чтобы скобки после слова были*/
+.movingBracketsSayHello::before,
+.movingBracketsSayHello::after {
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.4s ease;
+    position: absolute;
+}
+
+/* отвечает как далеко будут двигаться скобки*/
+.movingBracketsSayHello:hover::before {
+    margin: 0em 0px 0px 4.9em;
+}
+
+.movingBracketsSayHello:hover::after {
+    margin: 0em 0px 0px 1.1em;
+}
+
+/* Custom Brackets */
+.movingBracketsSayHello::before {
+    content: "(";
+}
+
+.movingBracketsSayHello::after {
+    content: ")";
+}
+
+
+
