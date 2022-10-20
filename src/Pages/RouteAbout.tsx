@@ -4,7 +4,7 @@ interface IRouteAbout { }
 
 const RouteAbout: React.FC<IRouteAbout> = () => {
     return (
-        <section className='bg-background min-h-screen flex flex-col justify-center'>
+        <section className='min-h-screen flex flex-col justify-center'>
             <div className='container mx-auto'>
                 <h1 className='text-whiteOppacity text-7xl font-bold '>Empty About Page.tsx</h1>
             </div>

@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
 
     return (
         <>
-            <section id='hero' className='bg-background min-h-screen flex flex-col justify-center'>
+            <section id='hero' className='min-h-screen flex flex-col justify-center'>
                 <div className='container mx-auto'>
                     <div className='flex-1 flex flex-col justify-center'>
                         <p className='text-whiteOppacity32 tracking-regularText mb-[16px] text-base'>hello, i am doing</p>

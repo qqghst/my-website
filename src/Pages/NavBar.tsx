@@ -11,7 +11,7 @@ const NavBar: React.FC<IRealNav> = () => {
 
     return (
         <>
-            <nav className='bg-background flex flex-col justify-between w-full fixed pt-[32px]'>
+            <nav className='flex flex-col justify-between w-full fixed pt-[32px]'>
                 <div className='container mx-auto flex justify-between'>
                     <div className='hover:animate-pulse'>
                         <a href="/">
