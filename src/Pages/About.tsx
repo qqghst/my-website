@@ -1,5 +1,6 @@
 import React from 'react';
 import { leftImg, arrow, line } from "../Assets/imports";
+// import Button from '../Components/UI/Button';
 import Button from '../Components/UI/Button';
 import { Link } from 'react-router-dom';
 
