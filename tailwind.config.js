@@ -5,7 +5,7 @@ module.exports = {
     ],
     theme: {
         letterSpacing: {
-            bigText: '-1.5px', //68.8px
+            bigText: '-0.5px', //68.8px
             mediumText: '-1.55px', //38.81px
             regularText: '-0.25px', //16px
         },
