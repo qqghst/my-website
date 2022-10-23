@@ -4,12 +4,11 @@
     color: rgba(255, 255, 255, 0.72);
 }
 
-/* .movingBracketsAbout:hover,
+.movingBracketsAbout:hover,
 .movingBracketsProjects:hover,
 .movingBracketsSayHello:hover {
-    color: rgb(15, 160, 84);
-    transition: transform 5s cubic-bezier(0.83, 0, 0.17, 1);
-} */
+    color: #672BE5;
+}
 
 
 /* отвечает за то где находятся скобки*/
