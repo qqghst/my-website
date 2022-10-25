@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import About from './About';
-import { arrow } from "../Assets/imports";
+import Text from './Text';
+import { arrow, line } from "../Assets/imports";
 // import Button from '../Components/UI/Button';
 import Button from '../Components/UI/Button';
 import TitleHero from '../Components/Glitch/titleHero/titleHero';
@@ -40,9 +41,10 @@ const Hero: React.FC = () => {
                     </div>
                 </div>
             </section>
+            <img src={line} alt="" />
 
             <div ref={ref}>
-                <About />
+                <Text />
             </div>
         </>
     );

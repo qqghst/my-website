@@ -26,14 +26,24 @@ const Text: React.FC = () => {
 
     return (
         <section ref={refContainer} className='flex flex-col justify-center'>
-            <div className='container mx-auto max-w-4xl py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-[40px] sm:text-[68.8px] md:text-6xl lg:text-7xl tracking-bigText font-semibold text-whiteOppacity'>
-                <div className='leading-[120%] mb-[32px]'>
-                    <div className={Styles.text} style={{opacity: opacityForBlock(progress, 0)}}>I don&apos;t know what to write here?</div>
-                    <span className={`${Styles.text} inline-block after:content-['_']`} style={{opacity: opacityForBlock(progress, 1)}}>So... I just gonna put this text right here because i really like it, but in the future there will be something worthwhile.</span>
-                    <span className={`${Styles.text} inline-block`} style={{opacity: opacityForBlock(progress, 2)}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</span>
+            <div className='container mx-auto py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-[40px] sm:text-[57.33px] tracking-bigText font-semibold text-whiteOppacity'>
+                <div className='leading-[110%]'>
+                    <div className={`${Styles.text} mb-5`} style={{opacity: opacityForBlock(progress, 0)}}>My name is Dmitry, I am <br />  22 years old.</div>
+                    <span className={`${Styles.text} inline-block after:content-['_'] mb-5`} style={{opacity: opacityForBlock(progress, 1)}}>Doing frontend develop <br /> and ux/ui design. Years <br /> ago i was working as <br /> ux/ui design, so i love <br /> making tasty designs.</span>
+                    <span className={`${Styles.text} inline-block mb-5`} style={{opacity: opacityForBlock(progress, 2)}}>Currently free for work, <br /> if you are intersting, <br /> feel free to contact me :)</span>
                 </div>
             </div>
         </section>
+
+        // <section ref={refContainer} className='flex flex-col justify-center'>
+        //     <div className='container mx-auto max-w-4xl py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center md:text-6xl lg:text-7xl tracking-bigText font-semibold text-whiteOppacity'>
+        //         <div className='leading-[120%] mb-[32px] text-[40px] sm:text-[57.33px]'>
+        //             <div className={Styles.text} style={{opacity: opacityForBlock(progress, 0)}}>My name is Dmitry, I am <br />  22 years old.</div>
+        //             <span className={`${Styles.text} inline-block after:content-['_']`} style={{opacity: opacityForBlock(progress, 1)}}>Doing frontend develop <br /> and ux/ui design. Years <br /> ago i was working as <br /> ux/ui design, so i love <br /> making tasty designs.</span>
+        //             <span className={`${Styles.text} inline-block`} style={{opacity: opacityForBlock(progress, 2)}}>Currently free for work, <br /> if you are intersting, <br /> feel free to contact me :)</span>
+        //         </div>
+        //     </div>
+        // </section>
     )
 }
 
