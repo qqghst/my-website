@@ -1,13 +1,12 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import ss from '../LoaderNew/Loader.module.css'
-// import { loaderBg } from '../../Assets/imports';
+import loaderStyle from '../LoaderNew/Loader.module.css'
 
 const Loader: React.FC = () => {
     return (
-        <section id='typewriter' className='min-h-screen flex flex-col justify-center'>
-            <div className='container mx-auto'>
-                <div className={ss.typewriter}>
+        <section id='typewriter-cover' className='min-h-screen flex flex-col justify-center'>
+            <div className={`${loaderStyle.cover}`}>
+                <div className={loaderStyle.typewriter}>
                     <Typewriter
                         options={{
                             strings: ['/good <br /> design <br /> can speak.'],

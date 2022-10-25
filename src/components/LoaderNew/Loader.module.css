@@ -1,7 +1,17 @@
-
+.cover {
+    background-image: url(./bgLoader.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .typewriter {
-    background-image: url(./../../Assets/loaderBg.jpg);
     display: flex;
     justify-content: center;
     align-items: center;

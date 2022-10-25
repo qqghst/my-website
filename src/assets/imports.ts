@@ -10,5 +10,7 @@ import arrow from './hero/arrowDown.svg';
 import leftImg from './about/circle.svg'
 
 import line from './line.svg';
-import loaderBg from 'src/Assets/loaderBg.jpg';
-export { logo, close, menu, arrow, leftImg, line, loaderBg };
+// import loaderBg from './navigation/loaderBg.jpg'
+import doctor from '../Assets/doctor.png'
+
+export { logo, close, menu, arrow, leftImg, line, doctor };

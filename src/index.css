@@ -9,8 +9,14 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
 html, 
 body {
+    border: 0;
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
@@ -22,20 +28,7 @@ a {
     text-decoration: none;
 }
 
-* {
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-}
-
-/* * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    box-sizing: border-box;
-    scroll-behavior: smooth;
-} */
-
-/* sidebar animation starts */
+/* ================sidebar animation starts================ */
 .sidebar {
     -webkit-animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     animation: slide-top 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -64,4 +57,4 @@ a {
         transform: translateX(0);
     }
 }
-/* sidebar animation ends */
+/* ================sidebar animation ends================ */

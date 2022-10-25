@@ -1,14 +1,14 @@
 import React from 'react';
-import { leftImg, arrow, line } from "../Assets/imports";
-// import Button from '../Components/UI/Button';
+import { leftImg, arrow, line, doctor } from "../Assets/imports";
 import Button from '../Components/UI/Button';
 import { Link } from 'react-router-dom';
+
 
 const About: React.FC = () => {
     return (
         <>
             <img src={line} alt="" />
-            <section className={`min-h-screen flex flex-col justify-center text-3xl md:text-4xl`}>
+            <section className={`bg-${doctor} min-h-screen flex flex-col justify-center text-3xl md:text-4xl`}>
                 <div className='container mx-auto flex justify-between items-center '>
                     <img src={leftImg} alt="" />
                     <div>

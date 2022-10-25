@@ -3,7 +3,6 @@ import Hero from './Hero';
 import KeepInTouch from './KeepInTouch';
 import Text from './Text';
 import Footer from './Footer'
-import Loader from '../Components/LoaderNew/Loader';
 
 interface IMain {}
 
@@ -14,7 +13,6 @@ const Main: React.FC<IMain> = () => {
             <KeepInTouch />
             <Text />
             <Footer />
-            <Loader />
         </div>
     )
 }
