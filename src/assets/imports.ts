@@ -9,6 +9,6 @@ import arrow from './hero/arrowDown.svg';
 //about
 import leftImg from './about/circle.svg'
 
-import line from './line.svg'
-
-export { logo, close, menu, arrow, leftImg, line };
+import line from './line.svg';
+import loaderBg from 'src/Assets/loaderBg.jpg';
+export { logo, close, menu, arrow, leftImg, line, loaderBg };
