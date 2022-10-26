@@ -5,6 +5,7 @@ import { arrow, line } from "../Assets/imports";
 // import Button from '../Components/UI/Button';
 import Button from '../Components/UI/Button';
 import TitleHero from '../Components/Glitch/titleHero/titleHero';
+import AboutNew from './AboutNew';
 
 const Hero: React.FC = () => {
     //keep going button starts
@@ -44,7 +45,7 @@ const Hero: React.FC = () => {
             <img src={line} alt="" />
 
             <div ref={ref}>
-                <Text />
+                <AboutNew />
             </div>
         </>
     );
