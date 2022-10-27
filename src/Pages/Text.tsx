@@ -25,15 +25,27 @@ const Text: React.FC = () => {
     }
 
     return (
-        <section ref={refContainer} className='flex flex-col justify-center'>
-            <div className='container mx-auto py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center text-[40px] sm:text-[57.33px] tracking-bigText font-semibold text-whiteOppacity'>
-                <div className='leading-[110%]'>
-                    <div className={`${Styles.text} mb-5`} style={{opacity: opacityForBlock(progress, 0)}}>My name is Dmitry, I am <br />  22 years old.</div>
-                    <span className={`${Styles.text} inline-block after:content-['_'] mb-5`} style={{opacity: opacityForBlock(progress, 1)}}>Doing frontend develop <br /> and ux/ui design. Years <br /> ago i was working as <br /> ux/ui design, so i love <br /> making tasty designs.</span>
-                    <span className={`${Styles.text} inline-block mb-5`} style={{opacity: opacityForBlock(progress, 2)}}>Currently free for work, <br /> if you are intersting, <br /> feel free to contact me :)</span>
+        <>
+            <section ref={refContainer} className='min-h-screen flex flex-col justify-center'>
+                <div className='container mx-auto'>
+                    <div className='flex justify-around'>
+                        <div className='justify-center items-center md:text-6xl lg:text-7xl tracking-bigText font-semibold text-whiteOppacity'>
+                            <div className='flex flex-col gap-[12px] leading-[130%] text-[23.04px] sm:text-[33.18px]'>
+                                <div className={Styles.text} style={{ opacity: opacityForBlock(progress, 0) }}>My name is Dmitry, I am twenty two years old.<br />Located in Russia, Elista.</div>
+                                <span className={`${Styles.text} after:content-['_']`} style={{ opacity: opacityForBlock(progress, 1) }}>Doing frontend development and ux/ui design.<br />Years ago i was working as a designer, so<br />i love making tasty designs.</span>
+                                <span className={`${Styles.text}`} style={{ opacity: opacityForBlock(progress, 2) }}>Currently free for work, if you are intersting,<br />feel free to contact me :)</span>
+                            </div>
+                        </div>
+                        <div className=''>
+                            <p className='text-whiteOppacity text-[16px] leading-[180%] mb-[80px] font-light font-jetBrains'>My tech stack:<br />HTML, CSS, JavaScript, <br /> TypeScript, React, Redux, <br /> Tailwind, SCSS, Figma</p>
+                            <button className='rounded-full bg-white w-[160px] h-[160px] text-black font-jetBrains'>
+                                read more
+                            </button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </>
 
         // <section ref={refContainer} className='flex flex-col justify-center'>
         //     <div className='container mx-auto max-w-4xl py-24 md:py-28 lg:py-36 flex flex-col justify-center items-center md:text-6xl lg:text-7xl tracking-bigText font-semibold text-whiteOppacity'>

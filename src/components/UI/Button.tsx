@@ -5,9 +5,10 @@ export interface IButtonProps extends DOMAttributes<HTMLButtonElement> {
     onClick?: (event: React.MouseEvent) => void,
     children: React.ReactNode,
     icon?: any,
+    className?: any,
 }
 
-const Button: React.FC<IButtonProps> = ({ children, icon, type, onClick, ...props }) => {
+const Button: React.FC<IButtonProps> = ({ children, icon, type, onClick, className}) => {
     return (
         <button onClick={onClick} type={type} className='text-whiteOppacity font-light text-[16px] flex flex-row items-center '>
             {children}

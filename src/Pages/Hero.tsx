@@ -1,11 +1,11 @@
 import React, { useRef } from 'react';
 import About from './About';
 import Text from './Text';
-import { arrow, line } from "../Assets/imports";
+import { arrow } from "../Assets/imports";
 // import Button from '../Components/UI/Button';
 import Button from '../Components/UI/Button';
 import TitleHero from '../Components/Glitch/titleHero/titleHero';
-import AboutNew from './AboutNew';
+// import AboutNew from './AboutNew';
 
 const Hero: React.FC = () => {
     //keep going button starts
@@ -42,10 +42,11 @@ const Hero: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <img src={line} alt="" />
+            <hr className='opacity-20'/>
 
             <div ref={ref}>
-                <AboutNew />
+                <Text />
+                {/* <AboutNew/> */}
             </div>
         </>
     );

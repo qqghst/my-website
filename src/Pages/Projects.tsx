@@ -1,5 +1,4 @@
 import React from 'react'
-import { line } from "../Assets/imports";
 
 const Projects: React.FC = () => {
     return (
@@ -7,7 +6,6 @@ const Projects: React.FC = () => {
             <section className='min-h-screen flex flex-col justify-center'>
                 <div className='text-white'>Projects</div>
             </section>
-            <img src={line} alt="" />
         </>
     )
 }
