@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
 
     return (
         <>
-            <section id='hero' className='min-h-screen flex flex-col justify-center'>
+            <section id='hero' className='min-h-screen flex flex-col justify-center px-[32px]'>
                 <div className='container mx-auto'>
                     <TitleHero className=''> </TitleHero>
                 </div>

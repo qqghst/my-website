@@ -6,8 +6,8 @@ const Loader: React.FC = () => {
     return (
         <section id='typewriter-cover' className='min-h-screen flex flex-col justify-center'>
             <div className={`${loaderStyle.cover}`}>
-                <div className={loaderStyle.typewriter}>
-                    <Typewriter
+                <div className={`${loaderStyle.typewriter}`}>
+                    <Typewriter 
                         options={{
                             strings: ['/good <br /> design <br /> can speak.'],
                             autoStart: true,
