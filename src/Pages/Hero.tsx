@@ -1,11 +1,8 @@
 import React, { useRef } from 'react';
-import About from './About';
-import Text from './Text';
+import About from './About/About';
 import { arrow } from "../Assets/imports";
-// import Button from '../Components/UI/Button';
 import Button from '../Components/UI/Button';
 import TitleHero from '../Components/Glitch/titleHero/titleHero';
-// import AboutNew from './AboutNew';
 
 const Hero: React.FC = () => {
     //keep going button starts
@@ -23,18 +20,13 @@ const Hero: React.FC = () => {
             <section id='hero' className='min-h-screen flex flex-col justify-center'>
                 <div className='container mx-auto'>
                     <TitleHero className=''> </TitleHero>
-                    {/* <div className='flex-1 flex flex-col justify-center'>
-                        <p className='text-whiteOppacity32 tracking-regularText mb-[16px] text-base'>hello, i am doing</p>
-                        <h1 className='text-whiteOppacity font-bold leading-[110%] tracking-bigText text-[40px] sm:text-[68.8px]'>Frontend development <br /> and web design that will <br /> <span className='text-whiteOppacity32'>increase your profit.</span></h1>
-                    </div> */}
                 </div>
                 <div className='container mx-auto'>
                     <div className='absolute bottom-[70px] '>
-                        <Button onClick={handleClick} type='button'>
-                            {/* <span className='font-jetBrains bg-gradient-to-r bg-clip-text text-transparent from-whiteOppacity to-whiteOppacity hover:from-[#672BE5] hover:to-[#672BE5]'>keep going?</span> */}
+                        <Button onClick={handleClick} type='button' className='text-whiteOppacity font-light text-[16px] flex flex-row items-center'>
                             <span className='font-jetBrains hover:text-[#672BE5]'>keep going?</span>
                             <img
-                                className='px-[16px] animate-bounce'
+                                className='px-[16px] animate-bounce fill-white'
                                 src={arrow}
                                 alt="scroll down"
                             />
@@ -42,11 +34,10 @@ const Hero: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <hr className='opacity-20'/>
+            <hr className='opacity-20' />
 
             <div ref={ref}>
-                <Text />
-                {/* <AboutNew/> */}
+                <About />
             </div>
         </>
     );

@@ -14,13 +14,6 @@
     --index: 2;
 }
 
-/* .container {
-    color: var(--color);
-    font-size: 70px;
-    display: flex;
-    flex-direction: column;
-} */
-
 .stack {
     display: grid;
     grid-template-columns: 1fr;
