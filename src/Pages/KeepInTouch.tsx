@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const ScrollHorizontal: React.FC = () => {
     return (
         <>
-            <hr className='opacity-20' />
+            {/* <hr className='opacity-20' /> */}
             <section className='flex flex-col justify-center'>
                 <div className='flex flex-col justify-center items-center my-[40px]'>
                     <Marquee speed={90} gradient={false}>
@@ -23,7 +23,7 @@ const ScrollHorizontal: React.FC = () => {
                     </Marquee>
                 </div>
             </section>
-            <hr className='opacity-20' />
+            {/* <hr className='opacity-20' /> */}
         </>
     )
 }

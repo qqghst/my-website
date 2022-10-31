@@ -27,18 +27,18 @@ const About: React.FC = () => {
     }
 
     return (
-        <section ref={refContainer} className='py-[160px] flex flex-col justify-center '>
+        <section ref={refContainer} className='py-[64px] flex flex-col justify-center '>
             <div className='container mx-auto'>
                 <div className='flex flex-col gap-[80px] justify-center md:flex md:justify-around md:flex-row'>
                     <div className='justify-center items-center md:text-6xl lg:text-7xl tracking-bigText font-semibold text-whiteOppacity'>
-                        <div className='flex flex-col gap-[12px] leading-[130%] text-[19.20px] lg:text-[23.04px] xl:text-[33.81px]'>
-                            <div className={Styles.text} style={{ opacity: opacityForBlock(progress, 0) }}>My name is Dmitry, I am twenty two years old.<br />Located in Russia, Elista.</div>
-                            <span className={`${Styles.text} after:content-['_']`} style={{ opacity: opacityForBlock(progress, 1) }}>Doing frontend development and ux/ui design.<br />Years ago i was working as a designer, so<br />i love making tasty designs.</span>
-                            <span className={`${Styles.text}`} style={{ opacity: opacityForBlock(progress, 2) }}>Currently free for work, if you are intersting,<br />feel free to contact me :)</span>
+                        <div className='flex flex-col gap-[16px] leading-[130%] text-[19.20px] lg:text-[23.04px] xl:text-[27.65px] max-w-3xl'>
+                            <div className={Styles.text} style={{ opacity: opacityForBlock(progress, 0) }}>My name is Dmitry, I am twenty two years old. Located in Russia, Elista.</div>
+                            <span className={`${Styles.text} after:content-['_']`} style={{ opacity: opacityForBlock(progress, 1) }}>Doing frontend development and ux/ui design. Years ago i was working as a designer, so i love making tasty designs.</span>
+                            <span className={`${Styles.text}`} style={{ opacity: opacityForBlock(progress, 2) }}>Currently free for work, if you are intersting, feel free to contact me :)</span>
                         </div>
                     </div>
                     <div className=''>
-                        <p className='text-whiteOppacity text-[16px] leading-[180%] mb-[100px] font-light font-jetBrains'>My tech stack:<br />HTML, CSS, JavaScript, <br /> TypeScript, React, Redux, <br /> Tailwind, SCSS, Figma</p>
+                        <p className='text-whiteOppacity text-[16px] leading-[200%] mb-[100px] font-light font-jetBrains'>My tech stack:<br />HTML, CSS, JavaScript, <br /> TypeScript, React, Redux, <br /> Tailwind, SCSS, Figma</p>
                         <Link to='/about' className=''>
                             <Button type='button' className='rounded-full bg-whiteOppacity w-[160px] h-[160px] text-black'>
                                 <span className='font-jetBrains'>read more</span>

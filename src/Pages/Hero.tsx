@@ -34,7 +34,7 @@ const Hero: React.FC = () => {
                     </div>
                 </div>
             </section>
-            <hr className='opacity-20' />
+            {/* <hr className='opacity-20' /> */}
 
             <div ref={ref}>
                 <About />
