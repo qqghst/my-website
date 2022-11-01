@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import NavBar from './Components/NavBar/NavBarrr';
 import { Routes, Route, BrowserRouter } from 'react-router-dom';
 import RouteAbout from './Pages/Routing/RouteAbout';
-import RouteProjects from './Pages/Routing/RouteProjects';
+import RouteProjects from './Pages/Routing/RouteProjects/RouteProjects';
 import Main from './Pages/Main';
 import Loader from './Components/LoaderNew/Loader';
 

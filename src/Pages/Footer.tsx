@@ -4,13 +4,13 @@ import { arrowBlack } from '../Assets/imports'
 
 const Footer = () => {
     return (
-        <section id='footer' className='bg-white pt-[140px] pb-[220px] flex flex-col justify-center'>
+        <section id='footer' className='bg-white mt-[100px] pt-[140px] pb-[180px] flex flex-col justify-center'>
             <div className='container mx-auto flex justify-between items-start'>
                 <div>
                     <p className='text-[#7f7f7f] tracking-regularText mb-[16px] text-base'>got a project in mind?</p>
                     <h1 className='text-[#262626] font-bold leading-[110%] tracking-bigText text-[40px] sm:text-[68.8px] mt-[16px] mb-[32px]'>DON'T BE SHY,<br /><span className='underline underline-offset-[8px] '>TEXT ME.</span></h1>
                     <Button type='button' className='text-black font-light text-[16px] flex flex-row items-center'>
-                        <span className='font-jetBrains hover:text-[#672BE5]'>contact me</span>
+                        <a className='font-jetBrains hover:text-[#672BE5]' href="mailto:test@mail.ru">contact me</a>
                         <div className='-rotate-90'>
                             <img
                                 className='px-[16px] animate-bounce'
