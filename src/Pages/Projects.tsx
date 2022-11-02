@@ -5,52 +5,80 @@ import styles from './Projects.module.scss'
 
 const Projects: React.FC = () => {
     return (
-        <section className='flex flex-col justify-center pt-[200px]'>
-            <div className='mx-auto'>
-                <div className='flex flex-col justify-center gap-[180px]'>
-                    <div className='grid grid-cols-1 px-[16px] sm:px-0 sm:grid-cols-2 gap-[120px]'>
-                        <a href="#" className='bg-whiteOppacity min-h-[485px] w-[970px] col-span-2'>
-                        </a>
-                        <a href="#" className={`bg-red-500 min-h-[485px]`}>
-                            <img className={`${styles.img}`} src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="no" />
-                            {/* <figcaption>Sorry Mom Tattoo</figcaption> */}
-                        </a>
-                        <a href="#" className='bg-blue-500 h-[385px]'>
-                        </a>
-                    </div>
-                    <div className='grid grid-cols-1 px-[16px] sm:px-0 sm:grid-cols-2 gap-[120px]'>
-                        <div className='bg-whiteOppacity min-h-[485px] w-[970px] col-span-2' />
-                        <div className='bg-blue-500 h-[385px] ' />
-                        <div className='bg-red-500 min-h-[485px]' />
-                    </div>
-                    <Link to='/projects' className=''>
-                        <Button type='button' className='rounded-full bg-whiteOppacity w-[160px] h-[160px] text-black'>
-                            <span className='font-jetBrains'>view all</span>
-                        </Button>
-                    </Link>
+        <section className='flex flex-col justify-around gap-[300px] mt-[150px]'>
+            <div className='flex flex-col gap-[150px] container mx-auto'>
+                <div>
+                    <a href="/" className='flex justify-around items-center shrink-0'>
+                        <figure>
+                            <img className='flex justify-center min-w-[1000px] h-[500px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                            <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div className='flex flex-row gap-[80px] items-start flex-wrap'>
+                    <a href="/" className=''>
+                        <figure>
+                            <img className='min-w-[650px] h-[350px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                            <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                        </figure>
+                    </a>
+                    <a href="/" className='translate-y-40'>
+                        <figure>
+                            <img className=' min-w-[450px] h-[250px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                            <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                        </figure>
+                    </a>
                 </div>
             </div>
+            <div className='flex flex-col gap-[150px] container mx-auto'>
+                <div>
+                    <a href="/" className='flex justify-around items-center shrink-0'>
+                        <figure>
+                            <img className='flex justify-center min-w-[1000px] h-[500px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                            <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                        </figure>
+                    </a>
+                </div>
+                <div className='flex flex-row-reverse gap-[80px] items-start flex-wrap'>
+                    <a href="/" className=''>
+                        <figure>
+                            <img className='min-w-[650px] h-[350px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                            <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                        </figure>
+                    </a>
+                    <a href="/" className='translate-y-40'>
+                        <figure>
+                            <img className=' min-w-[450px] h-[250px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                            <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div>
+            {/* <div className='flex flex-col gap-[150px] container mx-auto'>
+                <div>
+                    <a href="/" className='flex justify-around items-center shrink-0'>
+                        <figure>
+                            <img className='flex justify-center min-w-[1000px] h-[500px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                            <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                        </figure>
+                    </a>
+                </div>
+            </div> */}
+            <div className='flex justify-center items-center'>
+                <Link to='/projects' className=''>
+                    <Button type='button' className='rounded-full bg-whiteOppacity w-[160px] h-[160px] text-black'>
+                        <span className='font-jetBrains'>view all</span>
+                    </Button>
+                </Link>
+            </div>
         </section>
-        // <section className='flex flex-col justify-center'>
-        //     <div className='container mx-auto'>
-        //         <div className="overlap-group">
-        //             <div className="items-center self-start flex flex-col gap-[180px] mx-auto">
-        //                 <div className="bg-white h-[485px] w-[970px]"></div>
-        //                 <div className="items-end flex gap-[130px]">
-        //                     <div className="bg-white h-[485px] w-[745px]"></div>
-        //                     <div className="bg-white h-[400px] w-[745px]"></div>
-        //                 </div>
-        //             </div>
-        //             <div className="x2-1">
-        //                 <div className="x4"></div>
-        //                 <div className="flex-row">
-        //                     <div className="x6"></div>
-        //                     <div className="x5"></div>
-        //                 </div>
-        //             </div>
-        //         </div>
-        //     </div>
-        // </section>
     )
 }
 
