@@ -5,114 +5,49 @@ interface IRouteProjects { }
 
 const RouteProjects: React.FC<IRouteProjects> = () => {
     return (
-        <section className=''>
-            {/* <div className='flex flex-col container mx-auto py-[160px] gap-[240px] flex-wrap'>
-                <div className='flex flex-row justify-end items-end gap-[240px] flex-wrap '>
-                    <a href="/" className={`bg-white h-[450px] w-[300px]`}>
-                        <img className={`${style.image}`} src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+        <section className='container mx-auto'>
+            <div className={`flex flex-col py-[160px] gap-[200px]`}>
+                <div className='flex flex-col justify-center items-center gap-[240px] md:flex-row md:justify-end md:items-end'>
+                    <a href="/" className={`${style.link}`}>
+                        <figure className={`${style.thumb}`}>
+                            <img className={`${style.image} h-[450px] w-[300px]`} src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <figcaption className={`${style.caption}`}>asasa</figcaption>
+                        </figure>
                     </a>
-                    <a href="/" className='bg-white h-[300px] w-[450px]' >
+                    <a href="/" className='translate-y-32'>
+                        <figure>
+                            <img className='h-[250px] w-[500px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <div className='flex flex-col gap-[4px] mt-[8px]'>
+                                <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                                <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                            </div>
+                        </figure>
                     </a>
                 </div>
-                <div className='flex flex-row justify-start items-start gap-[240px] flex-wrap'>
-                    <div className='bg-white h-[300px] w-[450px]' />
-                    <div className='bg-white h-[450px] w-[300px]' />
-                </div>
-            </div> */}
-            <div className={`${style.gallery}`}>
-                <div className={`${style.gallery__column}`}>
-                    <a href="https://unsplash.com/@jeka_fe" target="_blank" className={`${style.gallery__link}`}>
-                        <figure className={`${style.gallery__thumb}`}>
-                            <img src="https://source.unsplash.com/_cvwXhGqG-o/300x300" alt="Portrait by Jessica Felicio" className={`${style.gallery__image}`}/>
-                                <figcaption className={`${style.gallery__caption}`}>Portrait by Jessica Felicio</figcaption>
+
+                <div className='flex flex-col justify-center items-center gap-[340px] md:flex-row md:justify-start md:items-start'>
+                    <a href="/">
+                        <figure>
+                            <img className='h-[250px] w-[500px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <div className='flex flex-col gap-[4px] mt-[8px]'>
+                                <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                                <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                            </div>
+                        </figure>
+                    </a>
+                    <a href="/" className='translate-y-32'>
+                        <figure>
+                            <img className='h-[450px] w-[300px]' src="https://source.unsplash.com/AHBvAIVqk64/300x500" alt="" />
+                            <div className='flex flex-col gap-[4px] mt-[8px]'>
+                                <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                                <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
+                            </div>
                         </figure>
                     </a>
                 </div>
             </div>
         </section>
-        // <div className={`${style.grid} ${style.imageGrid}`}>
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg1}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg2}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg3}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg4}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg5}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg6}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg7}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg8}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg9}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        //     <div className={`${style.gridBlock}`}>
-        //         <div className={`${style.tile}`}>
-        //             <a className={`${style.tileLink}`} href="#">
-        //                 <img className={`${style.tileImg} ${style.tileImg10}`} src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no" alt="Image"/>
-        //             </a>
-        //         </div>
-        //     </div>
-
-        // </div>
     )
 }
 
-export default RouteProjects
+export default RouteProjects;
