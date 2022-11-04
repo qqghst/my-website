@@ -4,7 +4,7 @@ interface IRouteAbout { }
 
 const RouteAbout: React.FC<IRouteAbout> = () => {
     return (
-        <section className='min-h-screen flex flex-col justify-cente py-[260px] px-[16px]'>
+        <section className='min-h-screen flex flex-col justify-cente py-[260px] px-[32px] sm:px-[16px]'>
             <div className='container mx-auto'>
                 <div className='flex flex-col gap-[64px] max-w-2xl mb-[180px]'>
                     <h3 className='text-whiteOppacity text-[23.04px] tracking-[3px] font-semibold'>ABOUT PAGE.</h3>

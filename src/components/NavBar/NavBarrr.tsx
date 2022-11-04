@@ -13,7 +13,7 @@ const NavBar: React.FC = () => {
 
     return (
         <>
-            <nav className='flex flex-col justify-between w-full fixed pt-[32px] px-[32px] sm:px-0 z-50'>
+            <nav className='flex flex-col justify-between w-full fixed pt-[32px] px-[32px] z-50'>
                 <div className='container mx-auto flex justify-between '>
                     <div className='hover:animate-pulse'>
                         <a href="/">
