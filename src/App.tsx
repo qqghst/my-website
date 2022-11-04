@@ -7,10 +7,10 @@ import Main from './Pages/Main';
 import Loader from './Components/LoaderNew/Loader';
 
 function App() {
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        setLoading(false);
+        // setLoading(true);
         setTimeout(() => {
             setLoading(false)
         }, 2500)

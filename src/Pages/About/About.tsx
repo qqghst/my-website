@@ -40,7 +40,7 @@ const About: React.FC = () => {
                     <div className='flex flex-row gap-[80px] md:flex md:flex-col md:gap-0'>
                         <p className='text-whiteOppacity text-[16px] leading-[200%] mb-[100px] font-light font-jetBrains'>My tech stack:<br />HTML, CSS, JavaScript, <br /> TypeScript, React, Redux, <br /> Tailwind, SCSS, Figma</p>
                         <Link to='/about' className=''>
-                            <Button type='button' className='rounded-full bg-whiteOppacity w-[140px] h-[140px] md:w-[160px] md:h-[160px] text-black'>
+                            <Button type='button' className={`rounded-full border-2 border-whiteOppacity w-[140px] h-[140px] md:w-[160px] md:h-[160px] text-whiteOppacity`}>
                                 <span className='font-jetBrains'>read more</span>
                             </Button>
                         </Link>

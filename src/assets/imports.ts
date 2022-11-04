@@ -10,4 +10,8 @@ import menu from './navigation/menu.svg'
 import arrow from './common/arrow.svg';
 import arrowBlack from './common/arrowBlack.svg';
 
-export { logo, close, menu, arrow, arrowBlack, bg };
+import smt from './Projects/smt.jpg';
+import tenderPlay from './Projects/tenderplay.jpg';
+import notReady from './Projects/notready.jpg';
+
+export { logo, close, menu, arrow, arrowBlack, bg, smt, tenderPlay, notReady };

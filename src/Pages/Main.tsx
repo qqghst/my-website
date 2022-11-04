@@ -1,8 +1,8 @@
 import React from 'react'
 import Hero from './Hero';
-import KeepInTouch from './KeepInTouch';
+import KeepInTouch from './Marquee/Marquee';
 import Footer from './Footer';
-import Projects from './Projects';
+import Projects from './Projects/Projects';
 
 interface IMain {}
 
