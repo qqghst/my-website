@@ -1,10 +1,8 @@
 import React from 'react';
 import Button from '../../Components/UI/Button';
 import { Link } from 'react-router-dom';
-import styles from './Projects.module.scss'
 import { motion } from 'framer-motion';
 import { smt, tenderPlay, notReady } from '../../Assets/imports';
-import { useInView } from 'framer-motion';
 
 const imgAnimation = {
     hidden: {
@@ -34,11 +32,11 @@ const Projects: React.FC = () => {
             <div className='container mx-auto'>
                 <div className='flex flex-col gap-[180px] mb-[180px] flex-wrap px-[32px] md:px-0'>
                     <motion.div className='flex justify-center' initial='hidden' whileInView='visible' viewport={{ amount: 0.4, once: true }}>
-                        <motion.a href="/" variants={imgAnimation} custom={1}>
+                        <motion.a href="https://tenderplay.ru/" variants={imgAnimation} custom={1}>
                             <figure>
-                                <img className='h-[300px] w-[600px] md:h-[500px] md:w-[1000px]' src={smt} alt="/" />
+                                <img className='h-[300px] w-[600px] md:h-[500px] md:w-[1000px]' src={tenderPlay} alt="/" />
                                 <div className='mt-[8px]'>
-                                    <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
+                                    <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>TenderPlay</figcaption>
                                     <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
                                 </div>
                             </figure>
@@ -48,9 +46,9 @@ const Projects: React.FC = () => {
                     <motion.div className='flex flex-col gap-[180px] items-end md:flex-row md:gap-[32px] justify-evenly' initial='hidden' whileInView='visible' viewport={{ amount: 0.4, once: true }}>
                         <motion.a href="/" variants={imgAnimation} custom={2}>
                             <figure>
-                                <img className='h-[300px] w-[600px] ' src={tenderPlay} alt="/" />
+                                <img className='h-[300px] w-[600px] ' src={smt} alt="/" />
                                 <div className='mt-[8px]'>
-                                    <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Tender Play</figcaption>
+                                    <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Sorry Mom Tattoo</figcaption>
                                     <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
                                 </div>
                             </figure>
@@ -71,7 +69,7 @@ const Projects: React.FC = () => {
                     <motion.div className='flex justify-end' initial='hidden' whileInView='visible' viewport={{ amount: 0.4, once: true }}>
                         <motion.a href="/" variants={imgAnimation} custom={1}>
                             <figure>
-                                <img className='h-[300px] w-[600px] md:h-[500px] md:w-[1000px]' src={tenderPlay} alt="/" />
+                                <img className='h-[300px] w-[600px] md:h-[500px] md:w-[1000px]' src={notReady} alt="/" />
                                 <div className='mt-[8px]'>
                                     <figcaption className='text-whiteOppacity text-[13px] font-jetBrains'>Lorem ipsum</figcaption>
                                     <figcaption className='text-whiteOppacity32 text-[11.11px] max-w-[250px]'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur id rem sit magnam illo </figcaption>
