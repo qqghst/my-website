@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
                 <div className='container mx-auto'>
                     <div className='absolute bottom-[70px] '>
                         <Button onClick={handleClick} type='button' className='text-whiteOppacity font-light text-[16px] flex flex-row items-center'>
-                            <span className='font-jetBrains hover:text-[#672BE5]'>keep going?</span>
+                            <span className='font-jetBrains'>keep going?</span>
                             <img
                                 className='px-[16px] animate-bounce fill-white'
                                 src={arrow}

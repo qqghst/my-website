@@ -10,7 +10,7 @@ const Footer = () => {
                     <p className='text-[#7f7f7f] tracking-regularText mb-[16px] text-base'>got a project in mind?</p>
                     <h1 className='text-[#262626] font-bold leading-[110%] tracking-bigText text-[33.18px] sm:text-[47.78px] lg:text-[68.8px] mt-[16px] mb-[32px]'>DON'T BE SHY,<br /><span className='underline underline-offset-[8px] '>TEXT ME.</span></h1>
                     <Button type='button' className='text-black font-light text-[16px] flex flex-row items-center'>
-                        <a className='font-jetBrains hover:text-[#672BE5]' href="mailto:test@mail.ru">contact me</a>
+                        <a className='font-jetBrains' href="mailto:theicesilver121@mail.ru">contact me</a>
                         <div className='-rotate-90'>
                             <img
                                 className='px-[16px] animate-bounce'

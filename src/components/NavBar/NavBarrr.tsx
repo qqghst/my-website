@@ -31,7 +31,7 @@ const NavBar: React.FC = () => {
                             </li>
                             <li className='font-jetBrains'>
                                 {/* <Link className={ss.movingBracketsSayHello} to='#'>sayHello</Link> */}
-                                <a className={ss.movingBracketsSayHello} href="mailto:test@mail.ru">sayHello</a>
+                                <a className={ss.movingBracketsSayHello} href="mailto:theicesilver121@mail.ru">sayHello</a>
                             </li>
                         </ul>
                         <ul className='flex gap-[16px]'>
