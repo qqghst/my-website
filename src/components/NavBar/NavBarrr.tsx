@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { menu, close, bg } from '../../Assets/imports';
+import { menu, close } from '../../Assets/imports';
 import Logo from '../Logo/logo';
 import ss from './NavBar.module.css';
 
