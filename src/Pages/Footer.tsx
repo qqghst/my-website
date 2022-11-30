@@ -31,22 +31,17 @@ const Footer = () => {
                         <div className='flex flex-row gap-[16px] sm:flex sm:flex-col sm:gap-[8px] font-jetBrains'>
                             <ul>
                                 <li>
-                                    <a href="">github</a>
+                                    <a target='_blank' href="https://github.com/qqghst">github</a>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <a href="">behance</a>
+                                    <a target='_blank' href="https://www.behance.net/qqghst">behance</a>
                                 </li>
                             </ul>
                             <ul>
                                 <li>
-                                    <a href="">CV</a>
-                                </li>
-                            </ul>
-                            <ul>
-                                <li>
-                                    <a href="">instagram</a>
+                                    <a target='_blank' href="https://elista.hh.ru/resume/147495e1ff0b4a63330039ed1f524562646c43">CV</a>
                                 </li>
                             </ul>
                         </div>
